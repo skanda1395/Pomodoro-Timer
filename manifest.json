@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Pomodoro Timer",
+  "description": "Set a 20 minute timer to focus on one task.",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "pomodoro-timer-logo.png"
+  },
+  "permissions": [
+    "notifications",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Q",
+        "mac": "MacCtrl+Q"
+      },
+      "description": "Opens pomodoro popup.html"
+    }
+  }
+}

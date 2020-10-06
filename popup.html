@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+  <title>Pomodoro Timer</title>
+</head>
+<body>
+  <h2>Pomodoro Timer</h2>
+  <hr>
+  <main>
+    <form>
+      <p>Select a time chunk:</p>
+      <div class="input-group">
+        <input type="radio" name="interval" value="20" id="twenty">
+        <label for="twenty">20 min</label>
+      </div>
+      <div class="input-group">
+        <input type="radio" name="interval" value="40" id="forty">
+        <label for="forty">40 min</label>
+      </div>
+      <div class="input-group">
+        <input type="radio" name="interval" value="60" id="sixty">
+        <label for="sixty">60 min</label>
+      </div>
+      <div id="btns">
+        <input type="submit" value="Get to work!" id="submit" disabled>
+      </div>
+    </form>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

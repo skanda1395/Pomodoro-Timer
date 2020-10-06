@@ -1,0 +1,16 @@
+body {
+  width: 200px;
+  height: 200px;
+}
+
+h2, main {
+  text-align: center;
+}
+
+.input-group {
+  padding: 2px 0;
+}
+
+#btns input {
+  margin-top: 10px;
+}
